@@ -1,0 +1,30 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xzapno/burger.git"
+  },
+  "keywords": [
+    "Eat",
+    "Da",
+    "Burger"
+  ],
+  "author": "Paul Hoffman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xzapno/burger/issues"
+  },
+  "homepage": "https://github.com/Xzapno/burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
