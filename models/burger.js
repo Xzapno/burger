@@ -1,5 +1,15 @@
-var orm = require("../config/orm.js");
+// Import the ORM to create functions that will interact with the database.
 
-orm.selectAll("burger_name", "burgers", function(result) {
-    var data = result;
-});
+    var orm = require("../config/orm.js");
+
+    
+
+// Export the database functions for the controller (catsController.js).
+   
+
+module.exports = {
+    all: function (cb) {
+        orm.selectAll("burger_name", "burgers", cb);
+
+    }
+};
