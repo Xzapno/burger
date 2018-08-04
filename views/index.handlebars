@@ -2,15 +2,29 @@
 
     <div class="burgers">
 
+        <h1>That is One Tasty Burger!</h1>
+
+        <h3>Burger List</h3>
+
         <ul>
             {{#each burgers}}
-                
+                <!--{{#unless this.devoured}} -->
+                <div>
+                    <pre>
+                        {{this.id}}. {{this.burger_name}}
+                    </pre>
+                </div>
+                <!-- {{/unless}}  -->
             {{/each}}
         </ul>
+
+        <h3>Devoured Burgers</h3>
         
     </div>
 
     <div class="devoured">
+
+
         
     </div>
 
