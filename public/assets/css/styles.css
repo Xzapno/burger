@@ -1,4 +1,67 @@
 /* ========== Layout Styles ==========*/
+
+html {
+    height: 100%;
+}
+
 body {
-    background-color: khaki;
+    background-color: #efc612;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #bb2001;
+    border-bottom: 8px solid black; 
+}
+
+.container {
+    width: 1200px;
+    padding: 30px 30px 35px 30px;
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
+.burger {
+    float: left;
+    width: 50%;
+}
+
+.devoured {
+    float: right;
+    width: 50%;
+}
+
+footer {
+    background-color: #bb2001;
+    text-align: center;
+    border-top: 4px solid black;
+    padding: 10px 0px; 
+    flex-shrink: 0;
+}
+
+/* ========== Text Styles ==========*/
+
+h3 {
+    font-size:28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#footText {
+    color: #efc612;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* ========== Image Styles ==========*/
+
+#headImage {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0px;
+    max-width: 1200px;
+    max-height: auto;
 }
