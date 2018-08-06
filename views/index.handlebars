@@ -5,17 +5,17 @@
         <h3>Burger List</h3>
 
         <ul>
-            {{#each burgers}}
-                <!--{{#unless this.devoured}} -->
-                <div>
-                    <pre>
-                        {{this.id}}. {{this.burger_name}}
-                    </pre>
-                </div>
-                <!-- {{/unless}}  -->
-            {{/each}}
-        </ul>
-        
+        {{#each burgers}}
+            <!--{{#unless this.devoured}} -->
+            <div>
+                <pre>
+                    {{this.id}}. {{this.burger_name}}
+                </pre>
+            </div>
+            <!-- {{/unless}}  -->
+        {{/each}}
+    </ul>
+
     </div>
 
     <div class="devoured">
